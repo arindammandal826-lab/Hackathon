@@ -12,7 +12,7 @@ from datetime import date
 from typing import Optional
 
 from models import SourceRecord, SystemKnowledge, UBIDRecord
-from services.fuzzy_matching_service import compare_records
+from fuzzy_matching_service import compare_records
 
 # ---------------------------------------------------------------------------
 # Alphabet definitions
