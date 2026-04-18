@@ -27,9 +27,9 @@ st.set_page_config(
 # ── local imports ──────────────────────────────────────────────────────────
 from models import SourceRecord, UBIDRecord, ActivityEvent, SystemKnowledge, AuditEntry
 from mock_data import MOCK_UBIDS, MOCK_EVENTS, generate_mock_data
-from services.ubid_service import resolve_ubids, generate_unified_business_identifier
-from services.status_inference_service import infer_business_status, find_orphan_events
-from services.fuzzy_matching_service import compare_records
+from ubid_service import resolve_ubids, generate_unified_business_identifier
+from status_inference_service import infer_business_status, find_orphan_events
+from fuzzy_matching_service import compare_records
 
 # ══════════════════════════════════════════════════════════════════════════
 # Custom CSS  — dark industrial theme matching the original React design
